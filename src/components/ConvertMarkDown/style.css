@@ -1,0 +1,207 @@
+.remark-content {
+    color: #333;
+    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .remark-content h1, .remark-content h2, .remark-content h3, 
+  .remark-content h4, .remark-content h5, .remark-content h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  .remark-content h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
+  }
+
+  .remark-content h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
+  }
+
+  .remark-content h3 { font-size: 1.25em; }
+  .remark-content h4 { font-size: 1em; }
+  .remark-content h5 { font-size: .875em; }
+  .remark-content h6 { font-size: .85em; color: #6a737d; }
+
+  .remark-content p {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .remark-content a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+
+  .remark-content a:hover {
+    text-decoration: underline;
+  }
+
+  .remark-content strong {
+    font-weight: 600;
+  }
+
+  .remark-content em {
+    font-style: italic;
+  }
+
+  .remark-content del {
+    text-decoration: line-through;
+  }
+
+  .remark-content blockquote {
+    margin: 0;
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: .25em solid #dfe2e5;
+  }
+
+  .remark-content ul, .remark-content ol {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-left: 2em;
+  }
+
+  .remark-content ul ul, .remark-content ul ol,
+  .remark-content ol ul, .remark-content ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .remark-content li {
+    word-wrap: break-all;
+  }
+
+  .remark-content li + li {
+    margin-top: .25em;
+  }
+
+  .remark-content code {
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27,31,35,.05);
+    border-radius: 3px;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  }
+
+  .remark-content pre {
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+  }
+
+  .remark-content pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  .remark-content img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: #fff;
+  }
+
+  .remark-content hr {
+    height: .25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #e1e4e8;
+    border: 0;
+  }
+
+  .remark-content table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .remark-content table th,
+  .remark-content table td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+  }
+
+  .remark-content table tr {
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
+  }
+
+  .remark-content table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+  }
+
+  .remark-content input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: .5em;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .remark-content {
+      color: #c9d1d9;
+    }
+
+    .remark-content h1, .remark-content h2 {
+      border-bottom-color: #21262d;
+    }
+
+    .remark-content h6 { color: #8b949e; }
+
+    .remark-content a {
+      color: #58a6ff;
+    }
+
+    .remark-content blockquote {
+      color: #8b949e;
+      border-left-color: #30363d;
+    }
+
+    .remark-content code {
+      background-color: rgba(240,246,252,0.15);
+    }
+
+    .remark-content pre {
+      background-color: #161b22;
+    }
+
+    .remark-content img {
+      background-color: #0d1117;
+    }
+
+    .remark-content hr {
+      background-color: #30363d;
+    }
+
+    .remark-content table th,
+    .remark-content table td {
+      border-color: #30363d;
+    }
+
+    .remark-content table tr {
+      background-color: #0d1117;
+      border-top-color: #21262d;
+    }
+
+    .remark-content table tr:nth-child(2n) {
+      background-color: #161b22;
+    }
+  }

@@ -1,0 +1,17 @@
+.addPost{
+    border: 2px solid black;
+    height: 300px;
+}
+
+.addPost input{
+    border: 2px solid black;
+}
+.addPost textarea{
+    border: 2px solid black;
+}
+.addPost button{
+    border: 2px solid black;
+}
+form{
+    width: 50%;
+}

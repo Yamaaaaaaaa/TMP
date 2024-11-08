@@ -1,0 +1,13 @@
+.addPost{
+    border: 2px solid black;
+}
+
+.addPost input{
+    border: 2px solid black;
+}
+.addPost textarea{
+    border: 2px solid black;
+}
+.addPost button{
+    border: 2px solid black;
+}
